@@ -10,8 +10,6 @@ To address this, we propose a prototype-based approach to generate balanced repr
 
 PS3, the three-modal transformer model, processes the resulting prototype-based multimodal tokens and models intra-modal and cross-modal interactions across pathology reports, WSIs and transcriptomic data. The proposed model outperforms state-of-the-art methods when evaluated against clinical, unimodal and multimodal baselines on six datasets from The Cancer Genome Atlas (TCGA). 
 
-![PS3 model workflow](src/Main_figure.pdf)
-
 Accepted at **ICCV 2025**.
 
 [Paper on arXiv](https://arxiv.org/abs/2509.20022) | [PDF](https://arxiv.org/pdf/2509.20022)
