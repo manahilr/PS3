@@ -3,17 +3,17 @@ import subprocess
 
 # Define the fold paths and model_mm_types
 fold_paths = [
-    "/media/u2092920/Data/MMP/MMP_Splits/tcga-coadread/TCGA_COADREAD_overall_survival_k=0",
-    "/media/u2092920/Data/MMP/MMP_Splits/tcga-coadread/TCGA_COADREAD_overall_survival_k=1",
-    "/media/u2092920/Data/MMP/MMP_Splits/tcga-coadread/TCGA_COADREAD_overall_survival_k=2",
-    "/media/u2092920/Data/MMP/MMP_Splits/tcga-coadread/TCGA_COADREAD_overall_survival_k=3",
-    "/media/u2092920/Data/MMP/MMP_Splits/tcga-coadread/TCGA_COADREAD_overall_survival_k=4",
+    "PS3_Splits/tcga-coadread/TCGA_COADREAD_overall_survival_k=0",
+    "PS3_Splits/tcga-coadread/TCGA_COADREAD_overall_survival_k=1",
+    "PS3_Splits/tcga-coadread/TCGA_COADREAD_overall_survival_k=2",
+    "PS3_Splits/tcga-coadread/TCGA_COADREAD_overall_survival_k=3",
+    "PS3_Splits/tcga-coadread/TCGA_COADREAD_overall_survival_k=4",
 ]
 
 model_mm_types = ["histo", "gene", 'text']
 
 # Path to the main script
-main_script = "main_survival_2.py"
+main_script = "main_survival.py"
 
 # Base command
 base_command = [
