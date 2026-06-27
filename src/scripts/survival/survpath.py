@@ -1,15 +1,13 @@
 import os
 import subprocess
 
-#os.environ["CUDA_VISIBLE_DEVICES"]="1"
-
 # Define the fold paths and model_mm_types
 fold_paths = [
-    "/media/u2092920/Data/MMP/MMP_Splits/tcga-kirc/TCGA_KIRC_overall_survival_k=0",
-    "/media/u2092920/Data/MMP/MMP_Splits/tcga-kirc/TCGA_KIRC_overall_survival_k=1",
-    "/media/u2092920/Data/MMP/MMP_Splits/tcga-kirc/TCGA_KIRC_overall_survival_k=2",
-    "/media/u2092920/Data/MMP/MMP_Splits/tcga-kirc/TCGA_KIRC_overall_survival_k=3",
-    "/media/u2092920/Data/MMP/MMP_Splits/tcga-kirc/TCGA_KIRC_overall_survival_k=4",
+    "PS3_Splits/tcga-kirc/TCGA_KIRC_overall_survival_k=0",
+    "PS3_Splits/tcga-kirc/TCGA_KIRC_overall_survival_k=1",
+    "PS3_Splits/tcga-kirc/TCGA_KIRC_overall_survival_k=2",
+    "PS3_Splits/tcga-kirc/TCGA_KIRC_overall_survival_k=3",
+    "PS3_Splits/tcga-kirc/TCGA_KIRC_overall_survival_k=4",
 ]
 
 bag_size=4096
@@ -40,7 +38,7 @@ num_coattn_layers=1
 model_config = 'MIL_default'
 model = 'MIL'
 # Path to the main script
-main_script = "main.py"
+main_script = "main_survival.py"
 
 # Base command
 base_command = [
