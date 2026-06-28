@@ -148,7 +148,7 @@ If you find our work useful in your research, or if you use parts of this code, 
 
 ## Acknowledgements
 
-Parts of this codebase were adapted from or inspired by the following repositories: [MMP](https://github.com/mahmoodlab/MMP), [PANTHER](https://github.com/mahmoodlab/PANTHER), and [SurvPath](https://github.com/mahmoodlab/SurvPath).
+This code was adapted and inspired by the following repositories: [MMP](https://github.com/mahmoodlab/MMP), [PANTHER](https://github.com/mahmoodlab/PANTHER), and [SurvPath](https://github.com/mahmoodlab/SurvPath).
 
 We thank the authors of these repositories for making their code publicly available.
 
